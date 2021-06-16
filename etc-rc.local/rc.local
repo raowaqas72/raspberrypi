@@ -18,7 +18,7 @@ if [ ! -f $FLAG ]; then
    sudo systemctl start rc-local.service	
 
    sudo apt install python3-pip
-   sudo apt-get update
+   sudo apt-get -y update
 
    sudo apt-get -y upgrade
 
